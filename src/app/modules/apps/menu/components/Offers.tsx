@@ -1,6 +1,12 @@
-const Offers = () => {
+import { FC } from "react"
+
+type Props = {
+    className: string
+}
+
+const Offers: FC<Props> = ({ className }) => {
     return (
-        <div className="d-flex flex-stack bg-success rounded-3 p-6 mb-11">
+        <div className={className}>
             <div className="fs-6 fw-bold text-white">
                 <span className="d-block lh-1 mb-2">Subtotal</span>
                 <span className="d-block mb-2">Discounts</span>
