@@ -1,8 +1,14 @@
 const MenuOptions = () => {
+    const style = {
+        width: "138px",
+        height: "180px"
+    };
     return (
-        <ul className="nav nav-pills d-flex justify-content-between nav-pills-custom gap-3 mb-6" role="tablist">
-            <li className="nav-item mb-3 me-0" role="presentation">
-                <a className="nav-link nav-link-border-solid btn btn-outline btn-flex btn-active-color-primary flex-column flex-stack pt-9 pb-7 page-bg show active" data-bs-toggle="pill" href="#kt_pos_food_content_1" aria-selected="true" role="tab">
+
+        <ul className="nav nav-pills d-flex justify-content-between nav-pills-custom gap-6 mb-6" role="tablist">
+            <li className="nav-item mb-3 me-0 " role="presentation">
+                <a className="nav-link nav-link-border-solid btn btn-outline btn-flex btn-active-color-primary  flex-column flex-stack pt-9 pb-7 page-bg show active
+                " data-bs-toggle="pill" href="#kt_pos_food_content_1" style={style} aria-selected="true" role="tab">
                     <div className="nav-icon mb-3">
                         <img src="src/_metronic/assets/media/svg/food-icons/spaghetti.svg" className="w-50px" alt="" />
                     </div>
@@ -14,7 +20,7 @@ const MenuOptions = () => {
             </li>
 
             <li className="nav-item mb-3 me-0" role="presentation">
-                <a className="nav-link nav-link-border-solid btn btn-outline btn-flex btn-active-color-primary flex-column flex-stack pt-9 pb-7 page-bg" data-bs-toggle="pill" href="#kt_pos_food_content_2" aria-selected="false" role="tab" >
+                <a className="nav-link nav-link-border-solid btn btn-outline btn-flex btn-active-color-primary flex-column flex-stack pt-9 pb-7 page-bg" data-bs-toggle="pill" href="#kt_pos_food_content_2" style={style} aria-selected="false" role="tab" >
                     <div className="nav-icon mb-3">
                         <img src="src/_metronic/assets/media/svg/food-icons/salad.svg" className="w-50px" alt="" />
                     </div>
@@ -26,7 +32,7 @@ const MenuOptions = () => {
             </li>
 
             <li className="nav-item mb-3 me-0" role="presentation">
-                <a className="nav-link nav-link-border-solid btn btn-outline btn-flex btn-active-color-primary flex-column flex-stack pt-9 pb-7 page-bg " data-bs-toggle="pill" href="#kt_pos_food_content_3" aria-selected="false" role="tab">
+                <a className="nav-link nav-link-border-solid btn btn-outline btn-flex btn-active-color-primary flex-column flex-stack pt-9 pb-7 page-bg " data-bs-toggle="pill" href="#kt_pos_food_content_3" style={style} aria-selected="false" role="tab">
                     <div className="nav-icon mb-3">
                         <img src="src/_metronic/assets/media/svg/food-icons/cheeseburger.svg" className="w-50px" alt="" />
                     </div>
@@ -39,7 +45,7 @@ const MenuOptions = () => {
             </li>
 
             <li className="nav-item mb-3 me-0" role="presentation">
-                <a className="nav-link nav-link-border-solid btn btn-outline btn-flex btn-active-color-primary flex-column flex-stack pt-9 pb-7 page-bg " data-bs-toggle="pill" href="#kt_pos_food_content_4" aria-selected="false" role="tab">
+                <a className="nav-link nav-link-border-solid btn btn-outline btn-flex btn-active-color-primary flex-column flex-stack pt-9 pb-7 page-bg " data-bs-toggle="pill" href="#kt_pos_food_content_4" style={style} aria-selected="false" role="tab">
                     <div className="nav-icon mb-3">
                         <img src="src/_metronic/assets/media/svg/food-icons/coffee.svg" className="w-50px" alt="" />
                     </div>
@@ -52,7 +58,7 @@ const MenuOptions = () => {
             </li>
 
             <li className="nav-item mb-3 me-0" role="presentation">
-                <a className="nav-link nav-link-border-solid btn btn-outline btn-flex btn-active-color-primary flex-column flex-stack pt-9 pb-7 page-bg " data-bs-toggle="pill" href="#kt_pos_food_content_5" aria-selected="false" role="tab">
+                <a className="nav-link nav-link-border-solid btn btn-outline btn-flex btn-active-color-primary flex-column flex-stack pt-9 pb-7 page-bg " data-bs-toggle="pill" href="#kt_pos_food_content_5" style={style} aria-selected="false" role="tab">
                     <div className="nav-icon mb-3">
                         <img src="src/_metronic/assets/media/svg/food-icons/cheesecake.svg" className="w-50px" alt="" />
                     </div>
